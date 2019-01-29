@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15EDAAF36DD51036E5271C97 /* Pods_ArcTouch_Movie_DB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05977CD4BF17426237206F6B /* Pods_ArcTouch_Movie_DB.framework */; };
+		D709D9E121FFAB78004EC53E /* SearchMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D709D9E021FFAB78004EC53E /* SearchMovieViewController.swift */; };
+		D709D9E521FFB5A7004EC53E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D709D9E421FFB5A7004EC53E /* BaseViewController.swift */; };
+		D75D1C9221FB1E5600EAAFB2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D75D1C9121FB1E5600EAAFB2 /* Podfile */; };
+		D75D1C9421FB4ED000EAAFB2 /* MoviesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75D1C9321FB4ED000EAAFB2 /* MoviesListTableViewController.swift */; };
+		D75D1C9621FB4F4100EAAFB2 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75D1C9521FB4F4100EAAFB2 /* MovieDetailViewController.swift */; };
+		D75D1C9821FB4F6000EAAFB2 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75D1C9721FB4F6000EAAFB2 /* MovieTableViewCell.swift */; };
+		D77565CB21FF0AA500D9A1E0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77565CA21FF0AA500D9A1E0 /* Movie.swift */; };
+		D77565CD21FF0BC300D9A1E0 /* MoviesServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77565CC21FF0BC300D9A1E0 /* MoviesServices.swift */; };
+		D77565D321FF20DC00D9A1E0 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77565D221FF20DC00D9A1E0 /* UIViewControllerExtension.swift */; };
+		D77565D521FF519600D9A1E0 /* DateFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77565D421FF519600D9A1E0 /* DateFormatterExtension.swift */; };
+		D77565D721FF660C00D9A1E0 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77565D621FF660C00D9A1E0 /* MovieDetailView.swift */; };
+		D77565D921FF689E00D9A1E0 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77565D821FF689E00D9A1E0 /* NSObjectExtension.swift */; };
+		D77565DB21FF6A3700D9A1E0 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77565DA21FF6A3700D9A1E0 /* UIImageViewExtension.swift */; };
 		D7AA232E21F9CD6100F69939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA232D21F9CD6100F69939 /* AppDelegate.swift */; };
-		D7AA233021F9CD6100F69939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA232F21F9CD6100F69939 /* ViewController.swift */; };
-		D7AA233321F9CD6100F69939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AA233121F9CD6100F69939 /* Main.storyboard */; };
 		D7AA233521F9CD6500F69939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AA233421F9CD6500F69939 /* Assets.xcassets */; };
 		D7AA233821F9CD6500F69939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AA233621F9CD6500F69939 /* LaunchScreen.storyboard */; };
 		D7AA234321F9CD6500F69939 /* ArcTouch_Movie_DBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA234221F9CD6500F69939 /* ArcTouch_Movie_DBTests.swift */; };
 		D7AA234E21F9CD6500F69939 /* ArcTouch_Movie_DBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA234D21F9CD6500F69939 /* ArcTouch_Movie_DBUITests.swift */; };
+		D7AA236B21FA4A9600F69939 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA236A21FA4A9600F69939 /* Constants.swift */; };
+		D7AA236D21FA4AE200F69939 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA236C21FA4AE200F69939 /* Genre.swift */; };
+		D7AA236F21FA4B0000F69939 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA236E21FA4B0000F69939 /* MovieResponse.swift */; };
+		D7AA237121FA4DA600F69939 /* MoviesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AA237021FA4DA600F69939 /* MoviesAPI.swift */; };
+		D7AA237721FA7B4300F69939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AA237621FA7B4300F69939 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +51,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05977CD4BF17426237206F6B /* Pods_ArcTouch_Movie_DB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcTouch_Movie_DB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C6A124FAA2EC4371FF5A12 /* Pods-ArcTouch Movie DB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouch Movie DB.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouch Movie DB/Pods-ArcTouch Movie DB.release.xcconfig"; sourceTree = "<group>"; };
+		B4D84C65A96B0A520219A98D /* Pods-ArcTouch Movie DB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouch Movie DB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouch Movie DB/Pods-ArcTouch Movie DB.debug.xcconfig"; sourceTree = "<group>"; };
+		D709D9E021FFAB78004EC53E /* SearchMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMovieViewController.swift; sourceTree = "<group>"; };
+		D709D9E421FFB5A7004EC53E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D75D1C9121FB1E5600EAAFB2 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D75D1C9321FB4ED000EAAFB2 /* MoviesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListTableViewController.swift; sourceTree = "<group>"; };
+		D75D1C9521FB4F4100EAAFB2 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		D75D1C9721FB4F6000EAAFB2 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		D77565CA21FF0AA500D9A1E0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D77565CC21FF0BC300D9A1E0 /* MoviesServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesServices.swift; sourceTree = "<group>"; };
+		D77565D221FF20DC00D9A1E0 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		D77565D421FF519600D9A1E0 /* DateFormatterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExtension.swift; sourceTree = "<group>"; };
+		D77565D621FF660C00D9A1E0 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		D77565D821FF689E00D9A1E0 /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		D77565DA21FF6A3700D9A1E0 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		D7AA232A21F9CD6100F69939 /* ArcTouch Movie DB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArcTouch Movie DB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7AA232D21F9CD6100F69939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D7AA232F21F9CD6100F69939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7AA233221F9CD6100F69939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7AA233421F9CD6500F69939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7AA233721F9CD6500F69939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7AA233921F9CD6500F69939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +78,11 @@
 		D7AA234921F9CD6500F69939 /* ArcTouch Movie DBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ArcTouch Movie DBUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7AA234D21F9CD6500F69939 /* ArcTouch_Movie_DBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcTouch_Movie_DBUITests.swift; sourceTree = "<group>"; };
 		D7AA234F21F9CD6500F69939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7AA236A21FA4A9600F69939 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D7AA236C21FA4AE200F69939 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		D7AA236E21FA4B0000F69939 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
+		D7AA237021FA4DA600F69939 /* MoviesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAPI.swift; sourceTree = "<group>"; };
+		D7AA237621FA7B4300F69939 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15EDAAF36DD51036E5271C97 /* Pods_ArcTouch_Movie_DB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +111,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DD182A43C55F7DB122C78F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4D84C65A96B0A520219A98D /* Pods-ArcTouch Movie DB.debug.xcconfig */,
+				95C6A124FAA2EC4371FF5A12 /* Pods-ArcTouch Movie DB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D77565CE21FF1E5300D9A1E0 /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D709D9E421FFB5A7004EC53E /* BaseViewController.swift */,
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		D77565D121FF20B600D9A1E0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D77565D221FF20DC00D9A1E0 /* UIViewControllerExtension.swift */,
+				D77565D421FF519600D9A1E0 /* DateFormatterExtension.swift */,
+				D77565D821FF689E00D9A1E0 /* NSObjectExtension.swift */,
+				D77565DA21FF6A3700D9A1E0 /* UIImageViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		D7AA232121F9CD6100F69939 = {
 			isa = PBXGroup;
 			children = (
+				D75D1C9121FB1E5600EAAFB2 /* Podfile */,
 				D7AA232C21F9CD6100F69939 /* ArcTouch Movie DB */,
 				D7AA234121F9CD6500F69939 /* ArcTouch Movie DBTests */,
 				D7AA234C21F9CD6500F69939 /* ArcTouch Movie DBUITests */,
 				D7AA232B21F9CD6100F69939 /* Products */,
+				9DD182A43C55F7DB122C78F5 /* Pods */,
+				E14BFFEC86272B11B625E266 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +166,16 @@
 			isa = PBXGroup;
 			children = (
 				D7AA232D21F9CD6100F69939 /* AppDelegate.swift */,
-				D7AA232F21F9CD6100F69939 /* ViewController.swift */,
-				D7AA233121F9CD6100F69939 /* Main.storyboard */,
 				D7AA233421F9CD6500F69939 /* Assets.xcassets */,
-				D7AA233621F9CD6500F69939 /* LaunchScreen.storyboard */,
+				D77565D121FF20B600D9A1E0 /* Extensions */,
 				D7AA233921F9CD6500F69939 /* Info.plist */,
+				D7AA233621F9CD6500F69939 /* LaunchScreen.storyboard */,
+				D7AA236121FA48C500F69939 /* Model */,
+				D7AA236421FA490A00F69939 /* Networking */,
+				D7AA236521FA492700F69939 /* Storyboards */,
+				D7AA236921FA4A6500F69939 /* Utils */,
+				D7AA236221FA48D700F69939 /* ViewControllers */,
+				D7AA236321FA48E500F69939 /* Views */,
 			);
 			path = "ArcTouch Movie DB";
 			sourceTree = "<group>";
@@ -125,6 +198,93 @@
 			path = "ArcTouch Movie DBUITests";
 			sourceTree = "<group>";
 		};
+		D7AA236121FA48C500F69939 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7AA236C21FA4AE200F69939 /* Genre.swift */,
+				D7AA236E21FA4B0000F69939 /* MovieResponse.swift */,
+				D77565CA21FF0AA500D9A1E0 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D7AA236221FA48D700F69939 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D77565CE21FF1E5300D9A1E0 /* BaseControllers */,
+				D75D1C9321FB4ED000EAAFB2 /* MoviesListTableViewController.swift */,
+				D75D1C9521FB4F4100EAAFB2 /* MovieDetailViewController.swift */,
+				D709D9E021FFAB78004EC53E /* SearchMovieViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D7AA236321FA48E500F69939 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D75D1C9721FB4F6000EAAFB2 /* MovieTableViewCell.swift */,
+				D77565D621FF660C00D9A1E0 /* MovieDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D7AA236421FA490A00F69939 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D7AA236621FA499900F69939 /* Endpoints */,
+				D7AA236821FA49E000F69939 /* RequestObjects */,
+				D7AA236721FA49C100F69939 /* Services */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D7AA236521FA492700F69939 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D7AA237621FA7B4300F69939 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D7AA236621FA499900F69939 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				D7AA237021FA4DA600F69939 /* MoviesAPI.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		D7AA236721FA49C100F69939 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D77565CC21FF0BC300D9A1E0 /* MoviesServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D7AA236821FA49E000F69939 /* RequestObjects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestObjects;
+			sourceTree = "<group>";
+		};
+		D7AA236921FA4A6500F69939 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D7AA236A21FA4A9600F69939 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E14BFFEC86272B11B625E266 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05977CD4BF17426237206F6B /* Pods_ArcTouch_Movie_DB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7AA235221F9CD6500F69939 /* Build configuration list for PBXNativeTarget "ArcTouch Movie DB" */;
 			buildPhases = (
+				07435262CBC66F334F8C0437 /* [CP] Check Pods Manifest.lock */,
 				D7AA232621F9CD6100F69939 /* Sources */,
 				D7AA232721F9CD6100F69939 /* Frameworks */,
 				D7AA232821F9CD6100F69939 /* Resources */,
+				8DE6B215BCFAE50992C13858 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,9 +391,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7AA237721FA7B4300F69939 /* Main.storyboard in Resources */,
 				D7AA233821F9CD6500F69939 /* LaunchScreen.storyboard in Resources */,
+				D75D1C9221FB1E5600EAAFB2 /* Podfile in Resources */,
 				D7AA233521F9CD6500F69939 /* Assets.xcassets in Resources */,
-				D7AA233321F9CD6100F69939 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +414,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07435262CBC66F334F8C0437 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcTouch Movie DB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE6B215BCFAE50992C13858 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouch Movie DB/Pods-ArcTouch Movie DB-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouch Movie DB/Pods-ArcTouch Movie DB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D7AA232621F9CD6100F69939 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7AA233021F9CD6100F69939 /* ViewController.swift in Sources */,
+				D7AA236D21FA4AE200F69939 /* Genre.swift in Sources */,
+				D7AA237121FA4DA600F69939 /* MoviesAPI.swift in Sources */,
+				D77565D521FF519600D9A1E0 /* DateFormatterExtension.swift in Sources */,
+				D77565CB21FF0AA500D9A1E0 /* Movie.swift in Sources */,
+				D75D1C9421FB4ED000EAAFB2 /* MoviesListTableViewController.swift in Sources */,
+				D77565DB21FF6A3700D9A1E0 /* UIImageViewExtension.swift in Sources */,
+				D77565CD21FF0BC300D9A1E0 /* MoviesServices.swift in Sources */,
+				D709D9E521FFB5A7004EC53E /* BaseViewController.swift in Sources */,
 				D7AA232E21F9CD6100F69939 /* AppDelegate.swift in Sources */,
+				D77565D921FF689E00D9A1E0 /* NSObjectExtension.swift in Sources */,
+				D77565D721FF660C00D9A1E0 /* MovieDetailView.swift in Sources */,
+				D75D1C9621FB4F4100EAAFB2 /* MovieDetailViewController.swift in Sources */,
+				D7AA236F21FA4B0000F69939 /* MovieResponse.swift in Sources */,
+				D75D1C9821FB4F6000EAAFB2 /* MovieTableViewCell.swift in Sources */,
+				D77565D321FF20DC00D9A1E0 /* UIViewControllerExtension.swift in Sources */,
+				D7AA236B21FA4A9600F69939 /* Constants.swift in Sources */,
+				D709D9E121FFAB78004EC53E /* SearchMovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +524,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D7AA233121F9CD6100F69939 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7AA233221F9CD6100F69939 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D7AA233621F9CD6500F69939 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,7 +586,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -418,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -430,8 +653,10 @@
 		};
 		D7AA235321F9CD6500F69939 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D84C65A96B0A520219A98D /* Pods-ArcTouch Movie DB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6NDSHHMVLC;
 				INFOPLIST_FILE = "ArcTouch Movie DB/Info.plist";
@@ -441,6 +666,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ArcTouch.ArcTouch-Movie-DB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,8 +674,10 @@
 		};
 		D7AA235421F9CD6500F69939 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C6A124FAA2EC4371FF5A12 /* Pods-ArcTouch Movie DB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6NDSHHMVLC;
 				INFOPLIST_FILE = "ArcTouch Movie DB/Info.plist";
@@ -459,6 +687,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ArcTouch.ArcTouch-Movie-DB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
