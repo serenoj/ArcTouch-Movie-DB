@@ -1,6 +1,8 @@
 # ArcTouch-Movie-DB
 App for cinephiles and movie hobbyists, fed with content from The Movie Database (TMDb).
 
+
+
 FUNCTIONALITY:
 
 ● Scroll through the list of upcoming movies
@@ -8,6 +10,8 @@ FUNCTIONALITY:
 ● See details of selected movie (name, poster image, genre, overview and release date).
 
 ● Search for movies by entering a partial or full movie name.
+
+
 
 
 THIRD PARTY LIBRARIES:
@@ -18,6 +22,8 @@ THIRD PARTY LIBRARIES:
 
 ● SDWebImage : Async image downloader with cache support. Used when presenting movie details with poster image. 
                The poster image is downloaded using this library.
+
+
 
 
 
