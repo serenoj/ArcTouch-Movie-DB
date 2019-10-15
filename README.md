@@ -12,3 +12,5 @@
 
 
 App for cinephiles and movie hobbyists, fed with content from The Movie Database (TMDb).
+
+See branch "development"
