@@ -1,7 +1,6 @@
 # ArcTouch-Movie-DB
 
-<p align="center">
-    <br>
+<p align="left">
     <br>
     <a href="LICENSE">
         <img src="http://img.shields.io/badge/license-MIT-brightgreen.svg" alt="MIT License">
